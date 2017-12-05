@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$bdd = new PDO("mysql:host=db665478216.db.1and1.com;dbname=db665478216;charset=utf8", "*******", "********");
+$bdd = new PDO("mysql:host=*******;dbname=db665478216;charset=utf8", "*******", "********");
 
 if (!isset($_SESSION['id']) AND isset($_POST['formconnexion2'])) 
 {
