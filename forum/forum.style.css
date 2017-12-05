@@ -1,0 +1,104 @@
+.full-width {
+	width:100%;
+}
+
+table.forum {
+	/*margin-top:25px;*/
+	margin-bottom:10px;
+	background: #fff;
+	width:100%;
+	font-size:14px;
+}
+
+table.forum tr {
+	/*border-bottom: 1px solid #FAFAFA;*/
+	background:#fff;
+	transition: all .3s ease;
+	border-bottom: 1px solid #EDEDED;
+}
+
+table.forum tr:nth-child(odd) {
+	background:#FAFAFA;
+}
+
+table.forum tr th, table.forum tr td, table.forum tr td.sub-info {
+	border:1px solid #EDEDED;
+	vertical-align: middle;
+}
+	table.forum tr th{
+		padding:7px 15px;
+	}
+	table.forum tr td {
+		padding:15px 15px;
+	}
+	table.forum tr.categories td {
+		padding:10px 15px;
+	}
+
+table.forum tr td.sub-info {
+	padding:5px 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size:13px;
+}
+
+table.forum tr th {
+	text-transform: uppercase;
+	font-weight:500;
+	font-size:13px;
+}
+
+table.forum tr th.main {
+	width: 50%;
+	text-align: left;
+}
+
+table.forum tr th.sub-info.w10 { width:10%; }
+table.forum tr th.sub-info.w20 {  width:20%; }
+
+table.forum tr th.center { text-align: center; }
+
+table.forum tr.header {
+	color:#fff;
+	background-color:#D2AE5B;
+	border-bottom: 1px solid transparent;
+	line-height:14px;
+	/*height:36px;*/
+}
+
+table.forum h4 {
+	font-size:15px;
+	font-weight: normal;
+	margin:0;
+}
+table.forum p {
+	font-size:13px;
+	line-height:16px;
+	margin:0;
+}
+
+table.forum.ntopic tr.header th.main {
+	width:20%;
+}
+
+form.fntopic input, form.fntopic textarea, form.fntopic select {
+	padding: 10px;
+	border: 1px solid #A9A9A9;
+}
+
+form.fntopic textarea, form.fntopic select {
+	width: 100%;
+}
+
+.btn.ntopic {
+	background:#fff;
+}
+	.btn.ntopic span {
+		position:relative;
+		top:1px;
+		margin-right:2px;
+	}
+
+@media only screen and (max-width:640px) {
+	.hide-640 {display:none;}
+}
